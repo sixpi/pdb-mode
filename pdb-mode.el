@@ -1,5 +1,4 @@
 i;; pdb-mode.el --- Major mode for editing Protein Data Bank files
-;;; This file is not part of GNU Emacs.
 
 ;; Copyright (C) 1997 Charlie Bond, University of Sydney
 ;;               2000-2002 Charlie Bond, University of Dundee
@@ -32,7 +31,7 @@ i;; pdb-mode.el --- Major mode for editing Protein Data Bank files
 ;; format files.
 
 ;;; This package is known to work (insofar as it's tested) with Emacs 24.4
-
+;;; ###autoload
 ;;; Code:
 
 (defvar pdb-mode-hook nil "Mode hook for pdb-mode")
