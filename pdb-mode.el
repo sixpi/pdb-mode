@@ -1,4 +1,4 @@
-i;; pdb-mode.el --- Major mode for editing Protein Data Bank files
+;;; pdb-mode.el --- Major mode for editing Protein Data Bank files
 
 ;; Copyright (C) 1997 Charlie Bond, University of Sydney
 ;;               2000-2002 Charlie Bond, University of Dundee
