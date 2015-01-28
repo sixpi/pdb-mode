@@ -31,7 +31,7 @@
 ;; format files.
 
 ;;; This package is known to work (insofar as it's tested) with Emacs 24.4
-;;; ###autoload
+
 ;;; Code:
 
 (defvar pdb-mode-hook nil "Mode hook for pdb-mode")
@@ -392,6 +392,7 @@ ATOM     13  C5  U   A   1       0.329   0.571   3.657  1.00 20.00\n")
 
 
 ;; PDB-MODE
+;;; ###autoload
 (defun pdb-mode ()
   "PDB mode is set up to do a few useful things to PDB (protein databank
 format) files.
