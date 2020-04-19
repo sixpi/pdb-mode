@@ -360,10 +360,11 @@ ATOM     13  C5  U   A   1       0.329   0.571   3.657  1.00 20.00\n")
 
 ;; Set up font lock
 (setq pdb-mode-syntax-table (make-syntax-table (standard-syntax-table)))
-(make-face 'pdb-key1-face)
-(set-face-background 'pdb-key1-face "grey95")
-(make-face 'pdb-comment-face)
-(set-face-foreground 'pdb-comment-face "grey50")
+(defface pdb-key1-face '((((background light)) :background "grey95")
+                         (((background dark)) :background "midnight blue"))
+  "For separating colomn.")
+(defface pdb-comment-face '((t :foreground "grey50"))
+  "For comment.")
 (if (string-match "GNU" (emacs-version))
     (progn
       (setq pdb-font-lock-keywords
